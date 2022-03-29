@@ -14,9 +14,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         edtSignUp.setOnClickListener {
-            startActivity(Intent( this,SigninActivity::class.java))   }
-          btn_login.setOnClickListener {
-              startActivity(Intent(this,ProfileActivity::class.java))
-          }
+
         }
 }
